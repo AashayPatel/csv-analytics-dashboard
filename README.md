@@ -64,13 +64,13 @@ csv-analytics-dashboard/
 ![Dashboard Screenshot](screenshots/dashboard1.png)
 ![Dashboard Screenshot](screenshots/dashboard2.png)
 
-### 🔐 Edit Graph Flow
+### ✏️ Edit Graph Flow
 ![Invite Screenshot](screenshots/edit.png)
 
-### 🔐 Saved Graph Flow
+### 💾 Saved Graph Flow
 ![Invite Screenshot](screenshots/edit.png)
 
-### 🔐 Invite Collaboration Flow
+### 📩 Invite Collaboration Flow
 ![Invite Screenshot](screenshots/invite.png)
 
 
@@ -85,3 +85,7 @@ csv-analytics-dashboard/
 ```bash
 git clone https://github.com/AashayPatel/csv-analytics-dashboard.git
 cd csv-analytics-dashboard
+```
+
+## 📬 Contact
+- Made with ❤️ by [Aashay Patel](https://github.com/AashayPatel)
