@@ -27,6 +27,23 @@ A modern full-stack web application to upload, visualize, and share CSV data usi
 ---
 
 ## 📁 Folder Structure
+csv-analytics-dashboard/
+- ├── frontend/               # React app (Vite + Tailwind)
+- - │   ├── components/         # Reusable UI components (Uploader, ChartRenderer, etc.)
+- - │   ├── pages/              # Main pages (Dashboard, PublicChart)
+- - │   ├── store/              # Zustand state management
+- - │   ├── utils/              # CSV parser, chart helpers
+- - │   └── main.jsx            # App entry point
+│
+- ├── backend/                # Express server (Node.js + MongoDB)
+- - │   ├── models/             # Mongoose schemas (Chart, Invite, User)
+- - │   ├── routes/             # Express API routes (auth, charts, invites)
+- - │   ├── controllers/        # Route logic (handling chart logic, auth)
+- - │   ├── middleware/         # Auth middleware (JWT checker)
+- - │   └── server.js           # Entry point for backend server
+│
+- ├── .gitignore
+- ├── README.md
 
 
 ---
@@ -40,7 +57,6 @@ A modern full-stack web application to upload, visualize, and share CSV data usi
 
 ---
 
-## 🛠️ Getting Started (Local Setup)
 
 ### 📦 Prerequisites
 
