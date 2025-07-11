@@ -1,0 +1,39 @@
+/* Remove default Vite demo styles */
+#root {
+  @apply max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply p-6 rounded-lg bg-white shadow-md;
+}
+
+.read-the-docs {
+  @apply text-gray-500 text-sm mt-2;
+}
+
+/* Optional: Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.5); /* slate-500/50 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Optional: Smooth animation for modals or tooltips */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

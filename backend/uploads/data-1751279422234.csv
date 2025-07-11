@@ -1,0 +1,11 @@
+region,employeeCount,salary,age
+North,15,40000,28
+South,25,55000,35
+East,10,42000,24
+West,20,50000,30
+Central,30,62000,40
+North,12,39000,26
+East,18,45000,29
+South,22,48000,32
+West,10,47000,27
+Central,28,53000,38
