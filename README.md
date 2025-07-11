@@ -58,6 +58,22 @@ csv-analytics-dashboard/
 ---
 
 
+## 📷 Screenshots
+
+### 📊 Dashboard with Chart Preview
+![Dashboard Screenshot](screenshots/dashboard1.png)
+![Dashboard Screenshot](screenshots/dashboard2.png)
+
+### 🔐 Edit Graph Flow
+![Invite Screenshot](screenshots/edit.png)
+
+### 🔐 Saved Graph Flow
+![Invite Screenshot](screenshots/edit.png)
+
+### 🔐 Invite Collaboration Flow
+![Invite Screenshot](screenshots/invite.png)
+
+
 ### 📦 Prerequisites
 
 - Node.js + npm
